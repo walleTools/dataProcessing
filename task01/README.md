@@ -20,19 +20,24 @@ Options:
 ```
 # sh getDataSet.sh centerResults
 Please go to the next step.
-if you just look the result , you can execute the following command
+
+you can execute the following command, just look at the result
 # python datapro.py --dir centerResults/data
 
-if you want output the result file , you can execute the following command
-if you want file format as excel:
-# python datapro.py --dir centerResults/data --file FileName --type excel
-if you want file formmat as csv:
-# python datapro.py --dir centerResults/data --file FileName --type csv
-if you want file formmat as html:
-# python datapro.py --dir centerResults/data --file FileName --type html
-if you want file format as json:
-# python datapro.py --dir centerResults/data --file FileName --type json
+you can execute the following command, then you can output the result file
 
+    if you want file format as excel:
+    # python datapro.py --dir centerResults/data --file FileName --type excel
+    
+    if you want file formmat as csv:
+    # python datapro.py --dir centerResults/data --file FileName --type csv
+    
+    if you want file formmat as html:
+    # python datapro.py --dir centerResults/data --file FileName --type html
+    
+    if you want file format as json:
+    # python datapro.py --dir centerResults/data --file FileName --type json
+    
 You will find the result file in the './result' dir
 # ls ./result
 ```
