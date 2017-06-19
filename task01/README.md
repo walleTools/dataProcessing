@@ -20,7 +20,9 @@ Options:
 ```
 # sh getDataSet.sh centerResults
 Please go to the next step.
-
+```
+#### Second, execute the datapro.py to processing the data
+```
 you can execute the following command, just look at the result
 # python datapro.py --dir centerResults/data
 
@@ -37,7 +39,9 @@ you can execute the following command, then you can output the result file
     
     if you want file format as json:
     # python datapro.py --dir centerResults/data --file FileName --type json
-    
-You will find the result file in the './result' dir
+```
+
+#### Then, You will find the result file in the './result' dir
+```
 # ls ./result
 ```
